@@ -23,11 +23,14 @@
 ### 梯度
 概念：是一个矢量，其方向上的方向导数最大，其大小正好是此最大方向导数。
 
-对于在平面区域 $D$ 上具有一阶连续偏导数的二元函数 $f(x,y)$，我们可以在每一个点 $P(x,y)$ 定出一个向量，这个向量称为函数在点 $P$ 的梯度，记作 $\mathrm{grad} f(x,y)$ 或 $\nabla f(x,y)$，其表达式为：![公式](/NeuralNetwork/image/format4.png)
+对于在平面区域 $D$ 上具有一阶连续偏导数的二元函数 $f(x,y)$，我们可以在每一个点 $P(x,y)$ 定出一个向量，这个向量称为函数在点 $P$ 的梯度，记作 $\mathrm{grad} f(x,y)$ 或 $\nabla f(x,y)$，其表达式为：
+![公式](/NeuralNetwork/image/format4.png)
 其中 $\frac{\partial f}{\partial x}$ 和 $\frac{\partial f}{\partial y}$ 分别是 $f(x,y)$ 对 $x$ 和 $y$ 的偏导数。
 
-设 $\hat{l}$ 是方向 $l$ 上的单位向量，则方向导数可以表示为：![公式](/NeuralNetwork/image/format5.png)
-由于当方向 $l$ 与梯度方向一致时，即 $\hat{l} = \frac{\mathrm{grad} f(x,y)}{\left\| \mathrm{grad} f(x,y) \right\|}$，有：![公式](/NeuralNetwork/image/format6.png)
+设 $\hat{l}$ 是方向 $l$ 上的单位向量，则方向导数可以表示为：
+![公式](/NeuralNetwork/image/format5.png)
+由于当方向 $l$ 与梯度方向一致时，即 $\hat{l} = \frac{\mathrm{grad} f(x,y)}{\left\| \mathrm{grad} f(x,y) \right\|}$，有：
+![公式](/NeuralNetwork/image/format6.png)
 所以，当 $l$ 与梯度方向一致时，方向导数达到最大值，且最大值为梯度的模，即函数在一点沿梯度方向的变化率最大，最大值为该梯度的模。
 
 ### 例子
