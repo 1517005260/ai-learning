@@ -63,9 +63,9 @@ score就是女孩根据男孩的各种特征，进行的一个打分情况<br>
 
 基于上个例子，我们可以用如下api：
 ``` python
-CLASS torch.nn.Linear(in_features, out_features, bias=Ture, device=None, dtype=None)
+(CLASS) torch.nn.Linear(in_features, out_features, bias=Ture, device=None, dtype=None)
 ```
-其中，输入数据个数 = `in_features` = 7<br>
+其中，以第一层为例，输入数据个数 = `in_features` = 7<br>
 输出结果个数 = 神经网络节点个数 = `out_features` = 4 （去除省略号）<br>
 是否启用偏移量计算 = `bias=Ture`<br>
 `device=None` = 运行环境：GPU or CPU<br>
