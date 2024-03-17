@@ -13,10 +13,8 @@
 
 ### 损失函数 `loss function`
 类似于计量经济学，我们有
-$$
-loss = \frac{1}{2}(y - \widehat{y})^2
-$$
-其中， $y$ 表示模型的预测值， $\widehat{y}$ 表示真值
+![公式](/NeuralNetwork/image/format3.png)
+其中， `y` 表示模型的预测值， `y^` 表示真值
 
 ==> 接下来转化为数学问题：<i>我们怎么求`loss`的最小值？</i>
 
@@ -25,20 +23,11 @@ $$
 ### 梯度
 概念：是一个矢量，其方向上的方向导数最大，其大小正好是此最大方向导数。
 
-对于在平面区域 $D$ 上具有一阶连续偏导数的二元函数 $f(x,y)$，我们可以在每一个点 $P(x,y)$ 定出一个向量，这个向量称为函数在点 $P$ 的梯度，记作 $\mathrm{grad} f(x,y)$ 或 $\nabla f(x,y)$，其表达式为：
-$$
-\mathrm{grad} f(x,y) = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right)
-$$
+对于在平面区域 $D$ 上具有一阶连续偏导数的二元函数 $f(x,y)$，我们可以在每一个点 $P(x,y)$ 定出一个向量，这个向量称为函数在点 $P$ 的梯度，记作 $\mathrm{grad} f(x,y)$ 或 $\nabla f(x,y)$，其表达式为：$\mathrm{grad} f(x,y) = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right)$
 其中 $\frac{\partial f}{\partial x}$ 和 $\frac{\partial f}{\partial y}$ 分别是 $f(x,y)$ 对 $x$ 和 $y$ 的偏导数。
 
-设 $\hat{l}$ 是方向 $l$ 上的单位向量，则方向导数可以表示为：
-$$
-\frac{\partial f}{\partial l} = \nabla f(x,y) \cdot \hat{l}
-$$
-由于当方向 $l$ 与梯度方向一致时，即 $\hat{l} = \frac{\mathrm{grad} f(x,y)}{\left\| \mathrm{grad} f(x,y) \right\|}$，有：
-$$
-\frac{\partial f}{\partial l} = \left\| \mathrm{grad} f(x,y) \right\|
-$$
+设 $\hat{l}$ 是方向 $l$ 上的单位向量，则方向导数可以表示为：$\frac{\partial f}{\partial l} = \nabla f(x,y) \cdot \hat{l}$
+由于当方向 $l$ 与梯度方向一致时，即 $\hat{l} = \frac{\mathrm{grad} f(x,y)}{\left\| \mathrm{grad} f(x,y) \right\|}$，有：$\frac{\partial f}{\partial l} = \left\| \mathrm{grad} f(x,y) \right\|$
 所以，当 $l$ 与梯度方向一致时，方向导数达到最大值，且最大值为梯度的模，即函数在一点沿梯度方向的变化率最大，最大值为该梯度的模。
 
 ### 例子
@@ -46,10 +35,7 @@ $$
 
 在上例中，我们需要找到整个函数的最低点，使用梯度下降算法。<br>
 由于梯度下降最快，所以我们可以逆着梯度找到最低点。（本例中梯度是指向增长方向的）<br>
-权重（或偏移）因此可以更新：
-$$
-w = w' - \text{learning_rate} \times g
-$$
+权重（或偏移）因此可以更新：$w = w' - \text{learning_rate} \times g$
 其中：`w'`是`t-1`时刻的参数，`learning_rate`是学习率，`g`是梯度，即对`loss`的求导。<br>
 即表达：逆着梯度走，接近最小损失率<br>
 学习率控制参数更新的快慢<br>
@@ -64,7 +50,9 @@ $$
 
 其次，用`nn.model`进行模型的搭建
 
-接着，求损失函数。之前我们讲的是 $\frac{1}{2}(y - \widehat{y})^2 $ ,这是均方误差MSE损失函数。实际上，还能有不同种类的损失函数，我们需要调用不同的api
+接着，求损失函数。之前我们讲的是 
+![公式](/NeuralNetwork/image/format3.png)
+这是均方误差MSE损失函数。实际上，还能有不同种类的损失函数，我们需要调用不同的api
 
 对损失函数求导`loss.backward()`
 
