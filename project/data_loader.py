@@ -7,7 +7,6 @@ import torch
 class iris_dataloader(Dataset):
     #继承自父类Dataset，要求重写三个方法：init，get_item,len
     def __init__(self, data_path):
-        super.__init__()
         # 初始化数据路径，以及加载数据
         self.data_path = data_path
 
