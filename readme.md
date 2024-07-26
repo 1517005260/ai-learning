@@ -2,7 +2,7 @@
 
 ## 目录
 
-[pytorch 2.0](./pytorch-learning/help.md)
+[pytorch 2.0](./pytorch-learning/readme.md)
 
 [LLM 入门](./LLM/readme.md)
 
