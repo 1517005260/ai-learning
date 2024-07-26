@@ -4,8 +4,8 @@
 
 # 目录
 
-环境配置  [链接](./environment/base.md)
+环境配置 [链接](./environment/base.md)
 
 神经网络理论 [链接](./NeuralNetwork/NN.md)
 
-鸢尾花分类实战  [链接](./project/base.md)
+鸢尾花分类实战 [链接](./project/base.md)

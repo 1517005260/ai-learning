@@ -21,3 +21,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 [数组](./array.md)
 
 [数据类型](./dataType.md)
+
+[数组形状](./shape.md)
+
+[数组操作](./operation.md)
