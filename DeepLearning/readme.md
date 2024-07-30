@@ -1,6 +1,6 @@
 # 李沐：动手学习深度学习 v2
 
-- 视频地址：[00 预告【动手学深度学习 v2】](https://www.bilibili.com/video/BV1if4y147hS/?share_source=copy_web&vd_source=841f0dab8930dfb1f8af9163985f9228)
+- 视频地址：[动手学深度学习 v2](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
 - 课程网址：https://courses.d2l.ai/zh-v2/
 - [教材](https://zh.d2l.ai/chapter_introduction/index.html)
 - [课程讨论区](https://discuss.d2l.ai/c/chinese-version/16)
