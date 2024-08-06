@@ -66,8 +66,6 @@ loss，用于衡量真实值和预测值的区别，越小越好
 
 ### 理解梯度与学习率
 
-$$
-\mathbf{w}_t = \mathbf{w}_{t-1} - lr \frac{\partial loss}{\partial \mathbf{w}_{t-1}}
-$$
+![alt text](image.png)
 
 学习率 lr 和梯度二者共同作用下降的步伐。其中，lr 只有大小，而梯度是向量。（梯度不是单位向量）
