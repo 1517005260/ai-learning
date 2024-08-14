@@ -10,4 +10,6 @@
 
 4. [动手学习深度学习](./DeepLearning/readme.md)
 
-5. [LLM 入门](./LLM/readme.md)
+5. [Artificial Intelligence：A Modern Approach](./Oriel-College/)
+
+6. [LLM 入门](./LLM/readme.md)
