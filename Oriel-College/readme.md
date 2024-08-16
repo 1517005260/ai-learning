@@ -4,3 +4,7 @@
 
 - [教材](./教材/)
 - [课件](./slides/)
+
+## presentation
+
+- [first week: Turing Machine](./pre1/)
