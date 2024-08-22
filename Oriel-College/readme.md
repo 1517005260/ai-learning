@@ -7,4 +7,5 @@
 
 ## presentation
 
-- [first week: Turing Machine](./pre1/)
+- [week 1: Turing Machine](./pre1/)
+- [week 2: limitations of FOL](./pre2/)
