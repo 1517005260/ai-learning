@@ -20,3 +20,9 @@ C:\Users\Administrator>ollama run qwen2:7b
 ```bash
 docker run -d -p 6008:6008 --gpus all registry.cn-hangzhou.aliyuncs.com/fastgpt_docker/m3e-large-api:latest
 ```
+
+## 目录
+
+1. [openai 接口基本使用方法](./openai/)
+
+2. langchain
