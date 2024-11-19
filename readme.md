@@ -13,3 +13,5 @@
 5. [Artificial Intelligence：A Modern Approach](./Oriel-College/)
 
 6. [LLM 入门](./LLM/readme.md)
+
+7. [langchain](./langchain/)
