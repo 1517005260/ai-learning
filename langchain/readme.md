@@ -25,4 +25,4 @@ docker run -d -p 6008:6008 --gpus all registry.cn-hangzhou.aliyuncs.com/fastgpt_
 
 1. [openai 接口基本使用方法](./openai/)
 
-2. langchain
+2. [langchain](./langchain/)
