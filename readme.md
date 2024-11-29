@@ -8,10 +8,10 @@
 
 3. [DataWhale 2024 AI 暑期夏令营](./DataWhale%20Summer%20Campus/readme.md)
 
-4. [动手学习深度学习](./DeepLearning/readme.md)
+4. [Artificial Intelligence：A Modern Approach](./Oriel-College/)
 
-5. [Artificial Intelligence：A Modern Approach](./Oriel-College/)
+5. [langchain](./langchain/)
 
-6. [LLM 入门](./LLM/readme.md)
+6. [动手学习深度学习](./DeepLearning/readme.md)
 
-7. [langchain](./langchain/)
+7. [LLM 入门](./LLM/readme.md)
