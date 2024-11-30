@@ -28,3 +28,5 @@ docker run -d -p 6008:6008 --gpus all registry.cn-hangzhou.aliyuncs.com/fastgpt_
 2. [langchain](./langchain/)
 
 3. [langchain + 知识图谱](./graph/)
+
+4. [gradio 简易使用方法](.//gradio/)
